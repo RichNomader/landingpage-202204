@@ -1,0 +1,156 @@
+* {
+    font-family: "Roboto" !important;
+}
+
+
+body {
+    margin: 0;
+    /* position: relative; */
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+main {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #f7f7f7;
+}
+
+
+.semibold {
+    font-weight: 700;
+}
+
+
+
+/* main */
+
+.image {
+    width: 100%;
+    user-select: none;
+    /* position: relative; */
+}
+
+.container {
+    width: 301px;    
+    display: flex;
+    flex-direction: column;
+    padding: 90px 0 60px;
+    position: relative;
+}
+
+.title {
+    font-size: 26px;
+    margin-bottom: 15px;
+}
+
+.form {
+    width: 301px;
+    display: flex;
+    flex-direction: column;
+}
+
+#phonenumber {
+    width: 301px;
+    height: 46px;
+    margin: 8px 0;
+    padding: 8px;
+    border-radius: 7.6px;
+    border: 0.8px solid #cecece;
+    font-size: 16px;
+    font-family: "Pretendard-Medium";
+    outline: none;
+    box-sizing: border-box;
+}
+
+
+#career_years {
+    width: 301px;
+    height: 46px;
+    margin: 8px 0;
+    padding: 8px;
+    border-radius: 7.6px;
+    border: 0.8px solid #cecece;
+    font-size: 16px;
+    font-family: "Pretendard-Medium";
+    outline: none;
+    /* appearance: none; */
+    /* background: url(/public/img/detail.png) no-repeat 97% 50%/24px auto; */
+}
+
+#choice_book {
+    width: 301px;
+    height: 46px;
+    margin: 8px 0;
+    padding: 8px;
+    border-radius: 7.6px;
+    border: 0.8px solid #cecece;
+    font-size: 16px;
+    font-family: "Pretendard-Medium";
+    outline: none;
+}
+
+.notice {
+    margin: 24px 0px 8px;
+    color: #272727;
+    font-size: 14px;
+    font-family: "Pretendard-Medium";
+}
+
+#read-book {
+    width: 301px;
+    height: 46px;
+    margin: 8px 0;
+    padding: 8px;
+    border-radius: 7.6px;
+    border: 0.8px solid #cecece;
+    font-size: 16px;
+    font-family: "Pretendard-Medium";
+    outline: none;
+    resize: none;
+    box-sizing: border-box;
+}
+
+.notice_2 {
+    margin: 0;
+    color: #272727;
+    font-size: 9px;
+    font-family: "Pretendard-Medium";
+    opacity: 0.6;
+}
+
+#submit {
+    background-color: #454545;
+    width: 301px;
+    height: 52px;
+    border-radius: 7.6px;
+    border: 0.8px solid #454545;
+    color: #ffffff;
+    margin-top: 24px;
+    font-size: 16px;
+    font-family: "Pretendard-Medium";
+}
+
+#button{
+    width: 166px; 
+    height: 114px; 
+    margin: 8px;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 160%;
+    color: #000;
+  
+  
+    background: #C4C4C4;
+    border-color: #C4C4C4;
+    border-radius: 8px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
