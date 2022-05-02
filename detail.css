@@ -1,5 +1,5 @@
 * {
-    font-family: "Pretendard" !important;
+    font-family: "Roboto" !important;
 }
 
 /* header {
@@ -40,6 +40,10 @@ main {
     text-align: center;
 } */
 
+.semibold {
+    font-weight: 700;
+}
+
 
 
 /* main */
@@ -56,6 +60,11 @@ main {
     flex-direction: column;
     padding: 90px 0 60px;
     position: relative;
+}
+
+.title {
+    font-size: 26px;
+    margin-bottom: 15px;
 }
 
 .form {
@@ -77,19 +86,6 @@ main {
     box-sizing: border-box;
 }
 
-#job {
-    width: 301px;
-    height: 46px;
-    margin: 8px 0;
-    padding: 8px;
-    border-radius: 7.6px;
-    border: 0.8px solid #cecece;
-    font-size: 16px;
-    font-family: "Pretendard-Medium";
-    outline: none;
-    /* appearance: none; */
-    /* background: url(/public/img/detail.png) no-repeat 97% 50%/24px auto; */
-}
 
 #career_years {
     width: 301px;
@@ -101,6 +97,8 @@ main {
     font-size: 16px;
     font-family: "Pretendard-Medium";
     outline: none;
+    /* appearance: none; */
+    /* background: url(/public/img/detail.png) no-repeat 97% 50%/24px auto; */
 }
 
 #choice_book {
@@ -118,7 +116,7 @@ main {
 .notice {
     margin: 24px 0px 8px;
     color: #272727;
-    font-size: 15px;
+    font-size: 14px;
     font-family: "Pretendard-Medium";
 }
 
@@ -139,8 +137,9 @@ main {
 .notice_2 {
     margin: 0;
     color: #272727;
-    font-size: 11px;
+    font-size: 9px;
     font-family: "Pretendard-Medium";
+    opacity: 0.6;
 }
 
 #submit {
